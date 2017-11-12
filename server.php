@@ -9,9 +9,11 @@ header("Content-Type: text/plain;charset=utf-8");
 //定义一个多维数组，包含员工的信息，每条员工信息为一个数组
 $staff = array
 (
-    array("name" => "洪七", "number" => "101", "sex" => "男", "job" => "总经理"),
-    array("name" => "郭靖", "number" => "102", "sex" => "男", "job" => "开发工程师"),
-    array("name" => "黄蓉", "number" => "103", "sex" => "女", "job" => "产品经理")
+    array("name" => "王力宏", "number" => "101", "sex" => "男", "job" => "总经理"),
+    array("name" => "陶喆", "number" => "102", "sex" => "男", "job" => "开发工程师"),
+    array("name" => "周杰伦", "number" => "103", "sex" => "男", "job" => "产品经理"),
+    array("name" => "林俊杰", "number" => "104", "sex" => "男", "job" => "前端"),
+    array("name" => "李艺晨", "number" => "105", "sex" => "女", "job" => "UI设计")
 );
 
 //判断如果是get请求，则进行搜索；如果是POST请求，则进行新建

@@ -8,7 +8,7 @@ function search1() {
 			+ document.getElementById("keyword").value);
 	request.send();
 	request.onreadystatechange = function() {
-		if (request.readyState === 4) {
+		if (request.readyState === 4) {//下载操作已完成。
 			if (request.status === 200) {
 				document.getElementById("searchResult").innerHTML = request.responseText;
 			} else {
